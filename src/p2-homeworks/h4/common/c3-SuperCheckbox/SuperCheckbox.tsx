@@ -20,6 +20,10 @@ const SuperCheckbox: React.FC<SuperCheckboxPropsType> = (
     }
 ) => {
     const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
+        const chackedValue = e.currentTarget.checked
+
+        onChangeChecked && onChangeChecked(chackedValue)
+        onChange && onChange(e)
         // сделайте так чтоб работал onChange и onChangeChecked
     }
 

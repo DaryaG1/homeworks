@@ -12,10 +12,10 @@
     height: 21px;
     margin-left: 10px;
 }
-.input{
+input{
     margin: 10px;
     background: gold;
 }
-.input:focus {
+input:focus {
     outline: #9e00ff solid 2px;
 }
