@@ -1,21 +1,24 @@
 .greeting{
     display: flex;
     align-items: flex-start;
+    background-color: #778beb;
 }
 
 .someClass {
-
+    margin-left: 8px;
+    font-style: italic;
+    font-size: 16px;
 }
 
 .error {
-    color: indigo;
+    color: #574b90;
     height: 21px;
     margin-left: 10px;
 }
 input{
     margin: 10px;
-    background: gold;
+    background: #f78fb3;
 }
 input:focus {
-    outline: #9e00ff solid 2px;
+    outline: #574b90 solid 2px;
 }

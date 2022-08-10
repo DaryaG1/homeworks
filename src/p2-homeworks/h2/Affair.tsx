@@ -1,7 +1,6 @@
 import React from 'react'
 import {AffairType, deleteAffair} from "./HW2";
-import {FilterType} from "./HW2";
-import Affairs from "./Affairs";
+import s from './Affairs.module.css'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 
 type AffairPropsType = {
@@ -16,10 +15,10 @@ function Affair(props: AffairPropsType) {
     }// need to fix
 
     return (
-        <div>
+        <div className={s.someClass}>
             {props.affair.name} ----
             {props.affair.priority}
-            <SuperButton onClick={deleteCallback}>X</SuperButton>
+            <SuperButton onClick={deleteCallback} className={s.btn}>X</SuperButton>
         </div>
     )
 }

@@ -1,3 +1,10 @@
 .someClass {
-
+    font-size: 25px;
+    background-color: #f3a683;
+    color:#303952;
+}
+.btn{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
 }

@@ -1,7 +1,16 @@
 .checkbox {
-
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-color: #cf6a87;
+    border: 2px solid #596275;
+}
+.checkbox:checked{
+    appearance: none;
+    background-color: #c44569;
 }
 
 .spanClassName {
-
+font-size: 16px;
 }

@@ -1,7 +1,6 @@
 import React from 'react'
 import Message from "./Message";
 
-
 function HW1() {
     const messageData = {
         avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
@@ -10,7 +9,7 @@ function HW1() {
         time: '22:00',
     }
     return (
-        <div>
+        <div style={{backgroundColor:'#f19066'}}>
             <hr/>
             homeworks 1
 

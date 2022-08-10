@@ -8,7 +8,7 @@
     text-decoration: none;
     text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
     user-select: none;
-    padding: 1em 2em;
+    padding: 0.5em 1em;
     outline: none;
     border-radius: 3px / 100%;
     background-image:
@@ -48,7 +48,7 @@
     outline: none;
     border: none;
     border-radius: 3px;
-    background: #0c9c0d linear-gradient(#82d18d, #0c9c0d);
+    background: #32ff7e linear-gradient(#3ae374, #32ff7e);
     box-shadow: inset #72de26 0 -1px 1px, inset 0 1px 1px #98ff98, #3caa3c 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
     -webkit-animation: pulsate 1.2s linear infinite;
     animation: pulsate 1.2s linear infinite;

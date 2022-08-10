@@ -1,18 +1,26 @@
 
-.massage {
+.wrapper {
     display: flex;
     align-items: flex-end;
     margin: 10px;
 }
 
-
-.text1{
-     min-width: 150px;
-     max-width: 300px;
-     word-wrap: break-word;
+.name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
 }
 
-
+.text {
+    min-width: 150px;
+    max-width: 300px;
+    word-wrap: break-word;
+    font-family: 'Roboto Mono', monospace;
+}
+.time{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    justify-content: right;
+}
 
 .avatar {
     height: 50px;
@@ -20,13 +28,16 @@
     border-radius: 50%;
 }
 
-.text {
+.message {
     padding: 10px;
     border-radius: 5px 5px 5px 0;
-    background-color: rgba(225,225,225,0.3);
+    background-color: #f7d794;
+    position: relative;
 }
-.angle{
+
+.angle {
     width: 15px;
     height: 15px;
-    background: radial-gradient(circle at 0 0, rgba(0,0,0,0) 15px, rgba(225,225,225,0.3) 0);
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, #f7d794 0);
+
 }
